@@ -24,8 +24,8 @@ def afficher_mathjax(formule):
     """
     components.html(html, height=100)
 
-
-st.header("Décomposition en facteurs premiers")
+st.title("Facteurs premiers")
+st.subheader("Décomposition d'un entier en facteurs premiers")
 st.write("")
 
 with st.form("saisie"):
